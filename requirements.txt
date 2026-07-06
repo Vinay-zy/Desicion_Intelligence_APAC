@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+google-genai
+chromadb
+python-dotenv
+streamlit
+requests
+plotly
+pandas
+google-cloud-aiplatform
+google-cloud-bigquery
+db-dtypes
