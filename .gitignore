@@ -1,0 +1,31 @@
+# .gitignore
+
+# Environment variables and secrets (NEVER commit this)
+.env
+.env.example
+
+# Local Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & compiler files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local databases and vector files
+*.db
+chroma_db/
+cache.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
